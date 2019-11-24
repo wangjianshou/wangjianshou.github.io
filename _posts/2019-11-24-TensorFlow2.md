@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "tf2"
+date:   2019-11-24
+categories: jekyll update
+---
+
 [toc]
 
 #### 第一种建立model的方法
