@@ -1,18 +1,18 @@
 ---
 layout: default
-title: 我的Blog
+title: 未觉池塘春草绿，阶前梧叶已秋声。
 ---
 
 <h2>{{ page.title }}</h2>
 
-<p>最新文章</p>
+<p>目录</p>
 
 <ul>
 
 　　　　{% for post in site.posts %}
 
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　　　<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
 　　　　{% endfor %}
 
-　　</ul>
+</ul>
