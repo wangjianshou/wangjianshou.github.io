@@ -27,7 +27,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  wangjianshou
 
-tensorflow2: TensorFlow2
 # Build settings
 #theme: minima
 #plugins:
