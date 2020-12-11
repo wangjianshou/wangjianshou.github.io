@@ -1,16 +1,67 @@
----
-layout: default
-title: 未觉池塘春草梦 阶前梧叶已秋
----
-<!--
-<ul>
-　{% for post in site.posts %}
-　　<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　{% endfor %}
-</ul>
--->
-<ul>
-	<li><a href="deepLearning">deepLearning</a></li>
-	<li><a href="Math">数学</a></li>
-	<li><a href="TensorFlow2 Learning Notes.html">TensorFlow2 学习笔记</a></li>
-</ul>
+<!DOCTYPE html>
+<html style="height:100%">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>未觉池塘春草梦，阶前梧叶已秋声</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="js/common.js"></script>
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/test.css" />
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+   <!-- To automatically render math in text elements, include the auto-render extension: -->
+   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+<script type="module">
+  var katex_config = {
+    delimiters:
+    [
+      {left: "$$", right: "$$", display: true},
+      {left: "$", right: "$", display: false}
+    ]};
+  import renderMathInElement from "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.mjs";
+  renderMathInElement(document.body, katex_config);
+</script>
+
+</head>
+
+
+<body style="height:100%">
+
+<div class='header'>
+
+<h1 style="display:inline">我就知道js，css没白学，有时间好好美化美化</h1>
+
+</div>
+
+
+<div class='sideBar' id='sideBarDiv'>
+
+</div>
+
+
+<div style='margin-left:16.88%;margin-top:0' class='settop' id='mainText'>
+<h2><a href="./Math" target='_blank'>Math</a></h2>
+  <h3><a href="./Math/凸优化理论.html" target='_blank'>凸优化理论</a></h2>
+    <p class='paragraph'>我貌似没有想好写什么？</p>
+	<h3><a href='./Math/矩阵论.html'>矩阵论</a></h3>
+  <h3><a href='./Math/泛函分析.html'>泛函分析</a></h3>
+	<h3><a href='./Math/集成学习理论.html'>集成学习理论</a></h3>
+	<h3><a href='./Math/变分法与泛函极值.html'>变分法与泛函极值</a></h3>
+  <h3><a href='./Math/概率论与统计学.html'>概率论与统计学</a></h3>
+
+
+<h2><a href="./TensorFlow2" target='_blank'>TensorFlow2</a></h2>
+  <h3><a href="./TensorFlow2/StatefulContainer.html" target='_blank'>StatefulContainer</a></h2>
+    <p class='paragraph'>我貌似没有想好写什么？</p>
+  <h3><a href="./TensorFlow2/keras.html" target='_blank'>keras</a></h2>
+    <p class='paragraph'>我貌似没有想好写什么？</p>
+  <h3><a href="./TensorFlow2/api.html" target='_blank'>api</a></h2>
+    <p class='paragraph'>我貌似没有想好写什么？</p>
+
+</div>
+</body>
